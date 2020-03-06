@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 using namespace cv;
-
+/*
 int main()
 {
 	VideoCapture cap;
@@ -34,4 +34,4 @@ int main()
 		}
 		waitKey(30);
 	}
-}
+}*/
