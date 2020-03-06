@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 using namespace cv;
+//为了下面的程序能跑我就把这里的程序弄成备注了，去掉/**/的备注符号就可以跑
 /*
 int main()
 {
