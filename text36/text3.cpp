@@ -15,9 +15,12 @@ int a()
 int b()
 {
 	cv::Mat dispMat;
-	cv::Point pt;
-	pt1 = 10;
-	pt2 = 10;
+	cv::Point pt1;
+	cv::Point pt2;
+	pt1.x = 10;
+	pt1.y = 0;
+	pt2.x = 20;
+	pt2.y = 0;
 	line(dispMat,pt1,pt2, CV_RGB(255, 0, 0), 1, 8, 0);
 }
 int c()
@@ -29,9 +32,4 @@ int c()
 	rect.width;
 	rect.height;
 	rectangle(dispMat, rect, CV_RGB(255, 0, 0), 1, 8, 0);
-}
-int main()
-{
-	cv::Mat dispMat(2, 2, CV_8UC3, Scalar(0, 0, 255));
-
 }
