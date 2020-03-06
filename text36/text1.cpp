@@ -5,7 +5,7 @@
 
 using namespace cv;
 
-int main()
+/*int main()
 {
 	cv::Mat src_color = imread("E:\\Git\\solar_cell_01.png");
 	std::vector<cv::Mat> channals;
@@ -18,4 +18,4 @@ int main()
 	cv::imshow("green", G);
 	cv::imshow("original Mat", src_color);
 	waitKey(0);
-}
+}*/
