@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 using namespace cv;
-
+/*
 int main()
 {
 	cv::Mat src_color = imread("E:\\Git\\solar_cell_01.png",0);
@@ -22,4 +22,4 @@ int main()
 	}
 	for (int i = 0; i < 255; i++)
 	{std::cout << histgram[i]<<std::endl; }
-}
+}*/
